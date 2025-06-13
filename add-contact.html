@@ -33,7 +33,7 @@
                 form.append('apiKey', apiKey);
 
                 fetch(rootPath + 'controller/insert-contact/', {
-                    method: 'Post',
+                    method: 'POST',
                     headers: {'Accept': 'application/json, *.*'},
                     body: form
                 })
